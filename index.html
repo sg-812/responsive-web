@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css links -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>SM Company</title>
+  </head>
+  <body>
+    <!-- Emmet: header>nav>div.logo>h1{SM}^ul>li*4>a 
+         > to move inside
+         ^ to go back-->
+
+    <!-- header part -->
+    <header>
+      <!-- navigation bar -->
+      <nav>
+        <div class="logo">
+          <h1>SM</h1>
+        </div>
+        <ul>
+          <li><a href="#" class="active" onclick="beActive(1)" id="home_link">Home</a></li>
+          <li><a href="#about" onclick="beActive(2)" id="about_link">About</a></li>
+          <li><a href="#process" onclick="beActive(3)" id="process_link">Process</a></li>
+          <li><a href="#testimonial" onclick="beActive(4)" id="testimonial_link">Testimonial</a></li>
+          <li><a href="#contact" onclick="beActive(5)" id="contact_link">Contact</a></li>
+        </ul>
+        <div class="box-icon" id="menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>       
+      </nav>
+      <!-- banner part -->
+      <div class="header-content">
+        <h1>SM Development Solution</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+          deserunt.
+        </p>
+        <form>
+          <input type="text" name="" id="" placeholder="Enter your name" />
+          <input type="email" name="" id="" placeholder="Enter your email" />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </header>
+
+
+    <main>
+      <!-- about part 1 -->
+      <section class="about" id="about">
+        <div class="row">
+          <div class="about-left">
+            <h2>SM is all about excellence in the world of business</h2>
+            <img src="images/about.webp" alt="about image" />
+          </div>
+          <div class="about-middle">
+            <h2>Our History</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+              facilis!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+              minima excepturi qui voluptatibus soluta aliquid corporis
+              laboriosam rerum!
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+          <div class="about-right">
+            <h2>Vision & Mission</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab
+              hic enim?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint a
+              consequuntur at minima corrupti expedita quae.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- about part 2 -->
+      <section class="about2">
+        <div class="row row1">
+          <div class="about2-left">
+            <h2>What we can do for you</h2>
+            <h1>About Us</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus,
+              velit.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
+              possimus, tenetur vero voluptas debitis placeat soluta. Aspernatur
+              accusantium est repellat!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="about2-right">
+            <div class="row">
+              <div class="card">
+                <img src="images/apple-logo-24.png" class="about-icon" />
+                <h2>IOS Development</h2>
+              </div>
+              <div class="card">
+                <img src="images/android-logo-24.png" class="about-icon" />
+                <h2>Android Development</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card">
+                <img src="images/data-regular-24.png" class="about-icon" />
+                <h2>Database Management</h2>
+              </div>
+              <div class="card">
+                <img
+                  src="images/line-chart-down-regular-24.png"
+                  class="about-icon"
+                />
+                <h2>Data Visualization</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- process part-->
+      <section class="process" id="process">
+        <div class="row">
+          <h1>What is our process</h1>
+        </div>
+        <div class="row">
+          <div class="process-content">
+            <div class="process-bar">
+              <div class="c1"></div>
+              <div class="c2"></div>
+              <div class="c3"></div>
+            </div>
+            <div class="row">
+              <div class="box1">
+                <h2>One</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                  voluptate omnis, dolorem exercitationem earum facilis?
+                </p>
+              </div>
+              <div class="box2">
+                <h2>Two</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  at!Fugit voluptate omnis, dolorem exercitationem earum facilis
+                  elit?
+                </p>
+              </div>
+              <div class="box3">
+                <h2>Three</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  nesciunt voluptas, fugit aut quibusdam enim?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonial -->
+      <section class="testimony" id="testimonial">
+        <div class="row">
+          <div class="test">
+            <div class="image">
+              <img src="images/user1.webp" alt="user1" />
+            </div>
+            <div class="test-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                sunt odio facilis vitae animi consequuntur?
+              </p>
+              <h2>John Doe</h2>
+              <div class="icons">
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star-half-stroke rating"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="test">
+            <div class="image">
+              <img src="images/user2.webp" alt="user1" />
+            </div>
+            <div class="test-content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                sunt odio facilis vitae animi consequuntur?
+              </p>
+              <h2>Luna Smith</h2>
+              <div class="icons">
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-solid fa-star rating"></i>
+                <i class="fa-regular fa-star rating"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact part -->
+      <section class="contact" id="contact">
+        <div class="row">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="row">
+          <form>
+            <input type="text" name="fullname" placeholder="Enter your name" />
+            <input type="email" name="mail" placeholder="Enter your email" />
+            <textarea name="msg">Enter your message</textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer part -->
+    <footer>
+      <p>&copy; S.G. & M.D. </p>
+    </footer>
+
+    <!-- script tags -->
+    <script
+      src="https://kit.fontawesome.com/26459c38b1.js" crossorigin="anonymous"
+    ></script>
+    <script src="Javascript/jquery.js"></script>  
+    <script src="Javascript/script.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
